@@ -12,9 +12,9 @@ for (let i= 0; i< questions.length; i++) {
 }
     console.log(total);
 if (total > 35) {
-    console.log("You're the best match.");
+    console.log(`You scored ${total} out of 40! You're the best match.`);
 }else if (total > 25 && total <= 35) {
-    console.log("You're pretty alright.");
+    console.log(`You scored ${total} out of 40! You're pretty alright.`);
 }else {
-    console.log("He will probably rip your arms off.");
+    console.log(`You scored ${total} out of 40! He will probably rip your arms off.`);
 }
